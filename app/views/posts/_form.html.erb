@@ -15,13 +15,10 @@
 
   <div class="topnav">
   <a class="active" href="/posts" >Home</a>
-
   </div>
 
-  <br>
-  <br>
-  
-
+<br>
+<br>
 
   <center>
 
@@ -45,10 +42,10 @@
   Created by:
 
   <select id="user_id" name="user_id">
-  <option value="1">Working</option>
-  <option value="2">Complete</option>
+  <option value="1">Brad</option>
+  <option value="2">Angie</option>
+  <option value="3">Jenny</option>
   </select>
-
   </div>
   
   </td>
@@ -59,11 +56,14 @@
   <div class="actions">
   <%= form.submit %>
   </div>
-
   </td>
   </tr>
   <tr>
-  <td>&nbsp;</td>
+  <td>
+  
+  <%= link_to '<button type="button">Back</button>'.html_safe, posts_path %>
+
+  </td>
   </tr>
   </tbody>
   </table>
